@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "packageName": "io.github.fgokorean.shizukutext",
+  "versionCode": 23,
+  "versionName": "0.7.2",
+  "apk": "FGO_Shizuku_Text_0.7.2.apk",
+  "size": 2148549,
+  "sha256": "85a5c9b4235044715c939d429ef46870f997049d6ef492636013946f58220812",
+  "notes": "게임 업데이트 뒤 패치 제거가 실패로 끝나던 경우를 고쳤어요. 공통 문구를 아직 받지 않았어도 스토리는 적용돼요."
+}
