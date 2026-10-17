@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "packageName": "io.github.fgokorean.shizukutext",
+  "versionCode": 38,
+  "versionName": "0.8.7",
+  "apk": "FGO_Shizuku_Text_0.8.7.apk",
+  "size": 2159597,
+  "sha256": "aa0f0f160829af2b2890f8474d7c668b95247ad9b42b4d97f319e0ff279ebd1d",
+  "notes": "새 번역 데이터나 앱 새 버전이 나오면 휴대폰 알림으로 알려 드립니다. 처음 실행할 때 알림 허용을 물으면 '허용'을 눌러 주시기 바랍니다."
+}
