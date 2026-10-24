@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "packageName": "io.github.fgokorean.shizukutext",
+  "versionCode": 46,
+  "versionName": "0.9.5",
+  "apk": "FGO_Shizuku_Text_0.9.5.apk",
+  "size": 2164433,
+  "sha256": "975290a6e7807ec3c99426a381e0d0b25b6287cacfcda16ea50f18344ac70869",
+  "notes": "한국어 적용 중에는 진행률만 간단히 보이도록 화면을 정리했습니다."
+}
