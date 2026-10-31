@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "packageName": "io.github.fgokorean.shizukutext",
+  "versionCode": 49,
+  "versionName": "0.9.8",
+  "apk": "FGO_Shizuku_Text_0.9.8.apk",
+  "size": 2164957,
+  "sha256": "6b2b660fe2efbc041d4e703645e5a1b901ba859c74165f2dabcf74e9e6b3af54",
+  "notes": "게임 데이터 파일을 찾지 못해 멈췄을 때 알기 쉬운 안내가 나오도록 고쳤습니다. 진단 정보에 어떤 파일이 없는지도 함께 나옵니다."
+}
