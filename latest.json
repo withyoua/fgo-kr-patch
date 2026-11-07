@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "packageName": "io.github.fgokorean.shizukutext",
+  "versionCode": 53,
+  "versionName": "0.9.12",
+  "apk": "FGO_Shizuku_Text_0.9.12.apk",
+  "size": 2167317,
+  "sha256": "73ee3ceabd4033c97caae6e248a2f94c358321b6735722a0a440af8127acf8cd",
+  "notes": "파일 내용이 그대로인데 저장소 정보 차이로 다시 적용 필요가 계속 표시되는 경우를 수정했습니다. 파일 내용과 공식 목록을 다시 확인한 뒤 앱의 기록만 갱신합니다."
+}
