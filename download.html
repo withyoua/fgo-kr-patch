@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JP FGO 한글화 - 최신 버전 받기</title>
+<style>
+body{font-family:sans-serif;background:#14171f;color:#e8eaf0;margin:0;padding:48px 16px;text-align:center}
+a.btn{display:inline-block;margin-top:20px;padding:14px 28px;border-radius:10px;background:#2f4fa8;color:#fff;text-decoration:none;font-weight:bold}
+p{color:#aab0c0}
+</style>
+</head>
+<body>
+<h2>JP FGO 한글화</h2>
+<p id="msg">최신 버전을 확인하는 중입니다…</p>
+<a class="btn" id="link" href="https://github.com/withyoua/fgo-kr-patch">설명 페이지로 가기</a>
+<script>
+// Fixed address for guides: always points at the APK named in latest.json, so links never need a version number.
+// 2026-10-16: the download comes from GitHub Releases (latest release holds the same APK).
+fetch('latest.json', {cache: 'no-store'}).then(function (r) { return r.json(); }).then(function (j) {
+  var a = document.getElementById('link'), url = 'https://github.com/withyoua/fgo-kr-patch/releases/latest/download/' + j.apk;
+  a.href = url; a.textContent = '최신 버전 v' + j.versionName + ' 받기';
+  document.getElementById('msg').textContent = '받기가 자동으로 시작되지 않으면 아래 버튼을 누르시기 바랍니다.';
+  location.href = url;
+}).catch(function () {
+  document.getElementById('msg').textContent = '최신 버전을 확인하지 못했습니다. 설명 페이지에서 받으시기 바랍니다.';
+});
+</script>
+</body>
+</html>

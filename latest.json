@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "packageName": "io.github.fgokorean.shizukutext",
+  "versionCode": 64,
+  "versionName": "0.9.23",
+  "apk": "FGO_Shizuku_Text_0.9.23.apk",
+  "size": 2176353,
+  "sha256": "7f8a7a2677b18785b21438b7e31ffc9deb2d92ace53dfea18b8cbce1d816ae27",
+  "notes": "‘한국어 적용 · 업데이트’를 누를 때 게임 데이터와 스토리에 한국어를 넣는 단계를 더 빠르게 했습니다. 적용 결과는 전과 같습니다."
+}
